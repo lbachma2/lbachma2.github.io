@@ -1,0 +1,40 @@
+#nav-bar{
+  background-color: rgb(32,42,68);
+}
+
+div.picture-addr {
+      height: 50em;
+      display: flex;
+      align-items: center;
+}
+div.lan-list{
+  font: "Times New Roman";
+  font-size: 100%;
+  align-items: flex-start;
+}
+
+h1{
+  font: "Times New Roman";
+  font-size: 150%;
+}
+
+h2{
+  font: "Times New Roman";
+  font-size: 150%;
+}
+
+#bio-paragraph{
+  font: "Times New Roman";
+  font-size: 100%;
+  align-content: center;
+  text-indent: 40px;
+}
+
+body {
+  background-image: url("39608.jpg");
+}
+
+#main-card{
+  margin-left: 40px;
+  margin-right: 40px;
+}
