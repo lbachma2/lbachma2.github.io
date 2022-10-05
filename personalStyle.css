@@ -45,7 +45,7 @@ h2{
   text-align: center;
 }
 
-#bio-paragraph{
+p.bio-paragraph{
   font: "Times New Roman";
   font-size: 100%;
   align-content: center;
@@ -71,6 +71,9 @@ body {
 }
 #picture-card{
   margin-right: -15px;
+}
+#picture-card2{
+  margin-right: -39px;
 }
 
 #general-descr{
@@ -121,6 +124,20 @@ body {
   margin-left: 2px;
   margin-right: 2px;
 }
+#extra-info7 {
+  font: "Times New Roman";
+  font-size: 75%;
+	visibility: hidden; /* element is initially hidden */
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#extra-info8 {
+  font: "Times New Roman";
+  font-size: 75%;
+	visibility: hidden; /* element is initially hidden */
+  margin-left: 2px;
+  margin-right: 2px;
+}
 #less-info {
 	visibility: hidden; /* element is initially hidden */
 }
@@ -137,5 +154,11 @@ body {
 	visibility: hidden; /* element is initially hidden */
 }
 #less-info6 {
+	visibility: hidden; /* element is initially hidden */
+}
+#less-info7 {
+	visibility: hidden; /* element is initially hidden */
+}
+#less-info8 {
 	visibility: hidden; /* element is initially hidden */
 }

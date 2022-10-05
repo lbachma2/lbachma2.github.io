@@ -9,19 +9,28 @@
     <link rel="stylesheet" href="personalStyle.css"> <!-- add stylesheet -->
   </head>
 	<body>
-		<div class="container-fluid" id="nav-bar">
-			<ul class="nav nav-pills nav-fill justify-content-center">
-	  		<li class="nav-item">
-	    		<a class="nav-link active" aria-current="page" href="index.html">Home</a>
-	  		</li>
-	  		<li class="nav-item">
-	    		<a class="nav-link" href="projects.html">Projects</a>
-	  		</li>
-				<li class="nav-item">
-	    		<a class="nav-link" href="experience.html">Experience</a>
-	  		</li>
-			</ul>
-		</div>
+
+		<nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+			<div class="container-fluid">
+		    <a class="navbar-brand" href="#"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="projects.html">Projects</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="experience.html">Experience</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
 
     <div class="card text-bg-light mb-3" id="main-card">
   		<div class="container" id="picture-addr">
@@ -44,26 +53,29 @@
               <div class="card text-bg-light border-light mb-3">
     					<div class="card-header">About me: </div>
               <div class="card-body text-dark">
-      					<p id="bio-paragraph">
+      					<p class="bio-paragraph">
                     I am a Junior Computer Science Major at the Univeristy of Notre Dame.
                     I am expected to graduate in the spring of 2024. I have relevant
                     coursework in the following languages:
       					</p>
-                <div class="language-list" id="lan-list">
-                  <ul>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Python</li>
-                    <li>Bash</li>
-                    <li>JavaScript</li>
-                    <li>React JS</li>
-                    <li>SQL</li>
-                    <li>MATLAB</li>
-                    <li>Bootstrap</li>
-                  </ul>
-                </div>
-                <p>
-                  I also have a Minor in Engineering Corporate Practice which integrates business classes such
+								<span class="badge text-bg-primary">C</span>
+								<span class="badge text-bg-primary">C++</span>
+								<span class="badge text-bg-primary">Python</span>
+								<span class="badge text-bg-primary">Bash</span>
+								<span class="badge text-bg-primary">Java</span>
+								<span class="badge text-bg-primary">JavaScript</span>
+								<span class="badge text-bg-primary">React JS</span>
+								<span class="badge text-bg-primary">SQL</span>
+								<span class="badge text-bg-primary">Bootstrap</span>
+								<span class="badge text-bg-primary">MATLAB</span>
+								<br><br>
+                <p class="bio-paragraph">
+									I have a cumulative GPA of 3.9. I made the Dean's List first semester freshman year, first semester sophomore year, and second semester sophomore year.
+									In high school I was in the Cum Laude Society an unweighted GPA of 4.0 and an ACT Score of 35/36.
+									<br><br>
+								</p>
+								<p class="bio-paragraph">
+								  I also have a Minor in Engineering Corporate Practice which integrates business classes such
                   as Finance and Accounting into Engineering. I also am a part of the CS 4 Good Club and the Cosmos Club at Notre Dame.
                 </p>
               </div>

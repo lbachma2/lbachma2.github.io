@@ -54,3 +54,21 @@ function emissionsMin(){
   document.getElementById("extra-info6").style.visibility = "hidden";
   document.getElementById("less-info6").style.visibility = "hidden";
 }
+function pong(){
+  document.getElementById("extra-info7").style.visibility = "visible";
+  document.getElementById("less-info7").style.visibility = "visible";
+}
+
+function pongMin(){
+  document.getElementById("extra-info7").style.visibility = "hidden";
+  document.getElementById("less-info7").style.visibility = "hidden";
+}
+function water(){
+  document.getElementById("extra-info8").style.visibility = "visible";
+  document.getElementById("less-info8").style.visibility = "visible";
+}
+
+function waterMin(){
+  document.getElementById("extra-info8").style.visibility = "hidden";
+  document.getElementById("less-info8").style.visibility = "hidden";
+}

@@ -8,18 +8,27 @@
     <link rel="stylesheet" href="personalStyle.css">
   </head>
 	<body>
-		<div class="container-fluid text-center" id="nav-bar">
-			<ul class="nav nav-pills nav-fill justify-content-center">
-	  		<li class="nav-item">
-	    		<a class="nav-link" href="index.html">Home</a>
-	  		</li>
-	  		<li class="nav-item">
-	    		<a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
-				<li class="nav-item">
-	    		<a class="nav-link" href="experience.html">Experience</a>
-	  		</li>
-			</ul>
-		</div>
+		<nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+			<div class="container-fluid">
+		    <a class="navbar-brand" href="#"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link" href="index.html">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="experience.html">Experience</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
 
 		<div class="card text-bg-light mb-3" id="main-card">
 			<div class="container-fluid text-center" id="ProjectExamples">
@@ -61,7 +70,7 @@
 							<div class="col text-center align-self-center" id="descr">
 								<br><br><br><br>
 								<p id="general-descr">
-									Created a user-playable Texas Hold'em game in C++ with graphics.
+									Created a user-playable Texas Hold'em game in C++ with graphics
 								</p>
 								<button class="btn" onclick="texas()">More Information</button>
 								<p id="extra-info2">
@@ -81,9 +90,68 @@
 							<div class="col text-center align-self-center" id="pictures">
 								<img src="poker-hands-royal-flush-in-texas-holdem-rankings.jpg" width="425px" height = "340px">
 							</div>
+							<br>
 						</div>
 					</div>
 				</div>
+				<div class="row">
+					<div class="card-group">
+						<div class="card" id="body-card">
+							<div class="card-header" id="page23Title">Pong Game - Spring 2019
+							<span class="badge text-bg-primary">Java</span></div>
+							<div class="col text-center align-self-center" id="descr">
+								<br><br><br><br>
+								<p id="general-descr">
+									Created a user-playable in Java with Graphics
+								</p>
+								<button class="btn" onclick="pong()">More Information</button>
+								<p id="extra-info7">
+									Used graphics to generate the paddles. The users controlled their paddles
+									with the arrows on the keyboard for one and the WASD keys for the other.
+									The game would play to five before it ended. The speed of the ball could also
+									be changed with 1,2,3,4.
+								</p>
+								<button id="less-info7" class="btn" onclick="pongMin()">Minimize</button>
+							</div>
+						</div>
+						<div class="card" id="picture-card">
+							<br>
+							<div class="col text-center align-self-center" id="pictures">
+								<img src="image.webp" width="425px" height = "340px">
+							</div>
+							<br>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="card-group">
+						<div class="card" id="body-card">
+							<div class="card-header" id="page23Title">Won Hackathon - Spring 2017
+							<span class="badge text-bg-primary">C++</span></div>
+							<div class="col text-center align-self-center" id="descr">
+								<br><br><br><br>
+								<p id="general-descr">
+									Won our local hackathon with a water optical illusion
+								</p>
+								<button class="btn" onclick="water()">More Information</button>
+								<p id="extra-info8">
+									Was on a team that used strobe lights and a water dispenser to create an optical illusion.
+									The water would drop at a constant rate in a dark box, then we had a strobe light attatched
+									to an Arduino that could operate at three different rates. One rate would make it appear as
+									if the water droplets were dropping very slowly, the other would make it appear as if they were
+									rising instead of falling, and the final made them appear completely still.
+								</p>
+								<button id="less-info8" class="btn" onclick="waterMin()">Minimize</button>
+							</div>
+						</div>
+						<div class="card" id="picture-card">
+							<br>
+							<div class="col text-center align-self-center" id="pictures">
+								<img src="hqdefault.jpg" width="425px" height = "340px">
+							</div>
+							<br>
+						</div>
+					</div>
 				<div class="row">
 					<div class="card-group">
 						<div class="card" id="body-card">
@@ -106,7 +174,7 @@
 							<button id="less-info3" class="btn" onclick="dinosMin()">Minimize</button>
 						</div>
 					</div>
-					<div class="card" id="picture-card">
+					<div class="card" id="picture-card2">
 						<br>
 						<div class="col text-center align-self-center" id="pictures">
 							<img src="Screen Shot 2022-10-03 at 10.46.14 PM.png" width="285px" height = "360px">
@@ -135,7 +203,7 @@
 									<button id="less-info4" class="btn" onclick="passwordsMin()">Minimize</button>
 								</div>
 							</div>
-							<div class="card" id="picture-card">
+							<div class="card" id="picture-card2">
 								<br>
 								<div class="col text-center align-self-center" id="pictures">
 									<img src="Screen Shot 2022-10-03 at 10.59.45 PM.png" width="270px" height = "330px">
@@ -172,7 +240,7 @@
 									<button id="less-info5" class="btn" onclick="battleshipMin()">Minimize</button>
 								</div>
 						</div>
-						<div class="card" id="picture-card">
+						<div class="card" id="picture-card2">
 							<br><br><br>
 							<div class="col text-center align-self-center" id="pictures">
 								<img src="Screen Shot 2022-10-03 at 11.26.45 PM.png" width="550px" height = "375px">
@@ -200,7 +268,7 @@
 								<button id="less-info6" class="btn" onclick="emissionsMin()">Minimize</button>
 							</div>
 						</div>
-						<div class="card" id="picture-card">
+						<div class="card" id="picture-card2">
 							<br><br>
 							<div class="col text-center align-self-center" id="pictures">
 								<iframe width="450" height="300" src="BachmanCodeVideoPresentation.mp4" frameborder="0" allowfullscreen></iframe>
