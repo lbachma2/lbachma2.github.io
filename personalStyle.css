@@ -7,10 +7,25 @@ div.picture-addr {
       display: flex;
       align-items: center;
 }
-div.lan-list{
+div.language-list{
   font: "Times New Roman";
   font-size: 100%;
   align-items: flex-start;
+}
+
+li.list-group-item{
+  font:"Times New Roman";
+  font-size: 100%;
+}
+#experience-list{
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+p.experience_paragraph{
+  font: "Times New Roman";
+  font-size: 85%;
 }
 
 h1{
@@ -22,6 +37,13 @@ h2{
   font: "Times New Roman";
   font-size: 150%;
 }
+#page23Title{
+  text-align: center;
+}
+
+#external-websites{
+  text-align: center;
+}
 
 #bio-paragraph{
   font: "Times New Roman";
@@ -30,11 +52,90 @@ h2{
   text-indent: 40px;
 }
 
+#external-websites{
+  margin-bottom: 10px;
+}
+
 body {
-  background-image: url("39608.jpg");
+  background-image: url("mountain-5.jpg");
 }
 
 #main-card{
   margin-left: 40px;
   margin-right: 40px;
+  margin-top: 40px;
+}
+
+#body-card{
+  margin-left: -15px;
+}
+#picture-card{
+  margin-right: -15px;
+}
+
+#general-descr{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+#extra-info {
+  font: "Times New Roman";
+  font-size: 75%;
+	visibility: hidden; /* element is initially hidden */
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#extra-info2 {
+  font: "Times New Roman";
+  font-size: 75%;
+	visibility: hidden; /* element is initially hidden */
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#extra-info3 {
+  font: "Times New Roman";
+  font-size: 75%;
+	visibility: hidden; /* element is initially hidden */
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#extra-info4 {
+  font: "Times New Roman";
+  font-size: 75%;
+	visibility: hidden; /* element is initially hidden */
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#extra-info5 {
+  font: "Times New Roman";
+  font-size: 75%;
+	visibility: hidden; /* element is initially hidden */
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#extra-info6 {
+  font: "Times New Roman";
+  font-size: 75%;
+	visibility: hidden; /* element is initially hidden */
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#less-info {
+	visibility: hidden; /* element is initially hidden */
+}
+#less-info2 {
+	visibility: hidden; /* element is initially hidden */
+}
+#less-info3 {
+	visibility: hidden; /* element is initially hidden */
+}
+#less-info4 {
+	visibility: hidden; /* element is initially hidden */
+}
+#less-info5 {
+	visibility: hidden; /* element is initially hidden */
+}
+#less-info6 {
+	visibility: hidden; /* element is initially hidden */
 }

@@ -20,8 +20,196 @@
 	  		</li>
 			</ul>
 		</div>
-		<div class="card text-bg-light mb-3" id="projects-card">
-			<h1>Projects</h1>
+
+		<div class="card text-bg-light mb-3" id="main-card">
+			<div class="container-fluid text-center" id="ProjectExamples">
+				<div class="row">
+					<div class="card-group">
+					<div class="card" id="body-card">
+						<div class="card-header" id="page23Title">Goodwill Project - Fall 2022
+						<span class="badge text-bg-primary">React JS</span>
+						<span class="badge text-bg-primary">SQL</span></div>
+					<div class="col text-center align-self-center" id="descr">
+						<br><br><br><br>
+						<p id="general-descr">
+							Project that involves front end development with React JS, and database development with SQL
+						</p>
+						<button class="btn" onclick="cseServ()">More Information</button>
+						<p id="extra-info">
+							Worked with Professor Kumar at Notre Dame, South Bend Goodwill Employees, and Cal Poly to manage database.
+							Purpose of app was to allow Goodwill employees to take notes on their phone in a shared but safe location. Team was given
+							some front end in react with no connected database. In first couple weeks we worked on connecting the front end to the database.
+							Then we improved the front end and added more functionaliy.
+						</p>
+						<button id="less-info" class="btn" onclick="cseServMin()">Minimize</button>
+					</div>
+				</div>
+				<div class="card" id="picture-card">
+					<br><br>
+					<div class="col text-center align-self-center" id="pictures">
+						<img src="Screen Shot 2022-10-03 at 10.24.03 PM.png" width="250px" height = "300px">
+						<img src="Screen Shot 2022-10-03 at 10.36.20 PM.png" width="250px" height = "300px">
+					</div>
+				</div>
+			</div>
+			</div>
+				<div class="row">
+					<div class="card-group">
+						<div class="card" id="body-card">
+							<div class="card-header" id="page23Title">Texas Hold'em - May 2021
+							<span class="badge text-bg-primary">C++</span></div>
+							<div class="col text-center align-self-center" id="descr">
+								<br><br><br><br>
+								<p id="general-descr">
+									Created a user-playable Texas Hold'em game in C++ with graphics.
+								</p>
+								<button class="btn" onclick="texas()">More Information</button>
+								<p id="extra-info2">
+									Used graphics to generate the cards and intereact with the user.
+									Generated buttons on the screen for the user to control the game.
+									The computer would bet based on how "good" its hand was. The cards were generated
+									on the screen for the user as they were dealt. Then the results would be displayed
+									and money would either be sutracted or added to the user based on their bets.
+									The computer also began with the same amount of money. The game would either end when
+									a player ran out of money, or the user opted to quit.
+								</p>
+								<button id="less-info2" class="btn" onclick="texasMin()">Minimize</button>
+							</div>
+						</div>
+						<div class="card" id="picture-card">
+							<br>
+							<div class="col text-center align-self-center" id="pictures">
+								<img src="poker-hands-royal-flush-in-texas-holdem-rankings.jpg" width="425px" height = "340px">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="card-group">
+						<div class="card" id="body-card">
+							<div class="card-header" id="page23Title">Dinosaur Map - October 2021
+							<span class="badge text-bg-primary">Python</span></div>
+						<div class="col text-center align-self-center" id="descr">
+							<br><br><br><br>
+							<p id="general-descr">
+								Created a Python Program that generates a map displaying dinosaur data near a location
+							</p>
+							<button class="btn" onclick="dinos()">More Information</button>
+							<p id="extra-info3">
+								The program first began with a user entered zip code and distance. Then it would parse
+								through a database of zipcodes and calculate the range of longitude and latitude to display.
+								From there it used a python map program called StaticMap to generate the background and plot circles
+								in which dinosaurs were discovered. The circles also used the age of the dinosaur to select the color.
+								After that this map was sent into another program called matplot to add axes and display the longitude
+								and latitude underneath the users mouse.
+							</p>
+							<button id="less-info3" class="btn" onclick="dinosMin()">Minimize</button>
+						</div>
+					</div>
+					<div class="card" id="picture-card">
+						<br>
+						<div class="col text-center align-self-center" id="pictures">
+							<img src="Screen Shot 2022-10-03 at 10.46.14 PM.png" width="285px" height = "360px">
+							<img src="Screen Shot 2022-10-03 at 10.49.38 PM.png" width="285px" height = "360px">
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="row">
+					<div class="card-group">
+						<div class="card" id="body-card">
+							<div class="card-header" id="page23Title">Parrallel Password Breaker - October 2021
+							<span class="badge text-bg-primary">Python</span></div>
+								<div class="col text-center align-self-center" id="descr">
+									<br><br><br><br>
+									<p id="general-descr">
+										Created a Python Program that uses parallel computing to break into passwords
+									</p>
+									<button class="btn" onclick="passwords()">More Information</button>
+									<p id="extra-info4">
+										The program began by taking in a random password. It then used threading and would generate random expressions.
+										The expression were compared to the password entered until a match was found. If one thread was used, it would
+										generate one password at a time alphabetically. If N threads were used, it would generate N threads alphabetically
+										insted until the password was found, essentially dividing the total time by N if not for overhead.
+									</p>
+									<button id="less-info4" class="btn" onclick="passwordsMin()">Minimize</button>
+								</div>
+							</div>
+							<div class="card" id="picture-card">
+								<br>
+								<div class="col text-center align-self-center" id="pictures">
+									<img src="Screen Shot 2022-10-03 at 10.59.45 PM.png" width="270px" height = "330px">
+									<img src="Screen Shot 2022-10-03 at 10.59.00 PM.png" width="270px" height = "330px">
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="row">
+					<div class="card-group">
+						<div class="card" id="body-card">
+							<div class="card-header" id="page23Title">Battleship Game - December 2021
+							<span class="badge text-bg-primary">C++</span></div>
+								<div class="col text-center align-self-center" id="descr">
+									<br><br><br><br>
+									<p id="general-descr">
+										Created a user-playable battleship game using C++ with a probability based automated opponent
+									</p>
+									<button class="btn" onclick="battleship()">More Information</button>
+									<p id="extra-info5">
+										As far as game essentials go,
+										the game was rather simple, a blank board was displayed on both sides. The game begins by asking the user to
+										place their ships on the board, prompting them until they enter valid locations. Then the board updated to display
+										a green s where their ships are located. After that they are asked to select locations to fire at. If it is a hit,
+										the board updates to show a red H, otherwise it displays a blue M for miss. The game ends when the user quits or one
+										person's ships are all sunk. Behind the scenes, the computer is constantly calculating the probability for every space
+										on the board. For example, since the corners could only have any size ship placed in two ways, they have the
+										lowest possibility on the board. If two locations have the same probability the computer randomly chooses between them.
+										As the game goes on, the computer keeps recalculating these probabilities and firing at the high probability locations.
+										When the computer lands a hit, it tests the locations around the hit to find the ship. When it lands two consecutive hits (which you can see in the photo)
+										it will keep firing at that same ship until it is sunk.
+										</thead>
+									</p>
+									<button id="less-info5" class="btn" onclick="battleshipMin()">Minimize</button>
+								</div>
+						</div>
+						<div class="card" id="picture-card">
+							<br><br><br>
+							<div class="col text-center align-self-center" id="pictures">
+								<img src="Screen Shot 2022-10-03 at 11.26.45 PM.png" width="550px" height = "375px">
+							</div>
+					</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="card-group">
+						<div class="card" id="body-card">
+							<div class="card-header" id="page23Title">Emissions Graphs - November 2020
+							<span class="badge text-bg-primary">MATLAB</span></div>
+							<div class="col text-center align-self-center" id="descr">
+								<br><br><br><br>
+								<p id="general-descr">
+									Project that used MATLAB and real-world data of countries' carbon emissions to create a user interface with multiple manipulatable graphs
+								</p>
+								<button class="btn" onclick="emissions()">More Information</button>
+								<p id="extra-info6">
+									This program uses MATLAB to graph real world countries' carbon emissions.
+									You can filter the graph by either time or country. Then on the left, it will output the
+									year with the most emissions, the year with the least, and the years with the largest and smallest increase.
+									On the bottom there is also a graph which shows the emissions breakdown based on continent which can also be filtered.
+								</p>
+								<button id="less-info6" class="btn" onclick="emissionsMin()">Minimize</button>
+							</div>
+						</div>
+						<div class="card" id="picture-card">
+							<br><br>
+							<div class="col text-center align-self-center" id="pictures">
+								<iframe width="450" height="300" src="BachmanCodeVideoPresentation.mp4" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+		<script type="text/javascript" src="buttonPresses.js"></script>
 	</body>
 </html>
